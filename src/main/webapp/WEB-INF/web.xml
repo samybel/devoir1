@@ -1,0 +1,12 @@
+<web-app>
+	<display-name>devoir1</display-name>
+
+	<servlet>
+		<servlet-name>Servlet</servlet-name>
+		<servlet-class>ca.etsmtl.gti515.devoir1.Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet</servlet-name>
+		<url-pattern>/servlet</url-pattern>
+	</servlet-mapping>
+</web-app>
