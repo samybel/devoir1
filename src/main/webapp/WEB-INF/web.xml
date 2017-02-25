@@ -11,10 +11,10 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AjaxServlet</servlet-name>
-		<url-pattern>/ajaxservlet</url-pattern>
+		<url-pattern>/AjaxServlet</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>WatermarkServlet</servlet-name>
-		<url-pattern>/watermarkservlet</url-pattern>
+		<url-pattern>/WatermarkServlet</url-pattern>
 	</servlet-mapping>
 </web-app>
