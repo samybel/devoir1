@@ -2,7 +2,8 @@
 
 ##Vos informations
 
-*Veuillez inscrire votre nom complet ici et l'URL d'accès à votre application sur Heroku ici*
+Samuel Belanger
+devoirgti525.herokuapp.com
 
 
 ##Correction 
