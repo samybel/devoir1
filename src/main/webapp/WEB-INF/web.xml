@@ -3,11 +3,11 @@
 
 	<servlet>
 		<servlet-name>AjaxServlet</servlet-name>
-		<servlet-class>ca.etsmtl.gti515.devoir1.AjaxServlet</servlet-class>
+		<servlet-class>ca.etsmtl.gti525.devoir1.AjaxServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>WatermarkServlet</servlet-name>
-		<servlet-class>ca.etsmtl.gti515.devoir1.WatermarkServlet</servlet-class>
+		<servlet-class>ca.etsmtl.gti525.devoir1.WatermarkServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AjaxServlet</servlet-name>
