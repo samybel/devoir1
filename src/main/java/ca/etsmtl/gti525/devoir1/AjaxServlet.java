@@ -17,11 +17,12 @@ public class AjaxServlet extends HttpServlet{
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		if(request.getAttribute("listeImages")==null){
+		if(request.getParameter("listeImages")==null){
 			request.setAttribute("collection", col.getImages());
 			request.getRequestDispatcher("/collection.jsp").forward(request, response);	
 		}else{
-			request.setAttribute("image", col.getImage((Integer)request.getAttribute("listeImages")));
+			request.setAttribute("image", col.getImage(Integer.parseInt(request.getParameter("listeImages"))));
+			request.setAttribute("dossierVignettes", getServletConfig().getInitParameter("dossierVignettes"));
 			request.getRequestDispatcher("/details.jsp").forward(request, response);
 		}
 
